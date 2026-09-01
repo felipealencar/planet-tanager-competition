@@ -1676,7 +1676,7 @@ Array.prototype.forEach.call(document.querySelectorAll('[data-reveal]'), functio
 })();
 """
 
-PAGE = r"""<title>Reading the Burn Scar</title>
+PAGE = r"""<title>Three Fires, No Severity Map</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
@@ -1691,33 +1691,42 @@ PAGE = r"""<title>Reading the Burn Scar</title>
   <div class="topbar">
     <div>
       <p class="eyebrow">Planet Tanager Open Data Competition &#183; Santa Monica Mountains</p>
-      <h1>Reading a burn scar in 426 bands</h1>
+      <h1>Three fires, no severity map</h1>
     </div>
     <button type="button" class="themebtn" id="theme">Dark</button>
   </div>
-  <p class="lede">In December 2024 and January 2025 the Palisades, Franklin and Kenneth
-  fires burned the Santa Monica Mountains. <b>How badly a fire burned, and how well the
-  ground recovers, are normally read from a two-band index</b> — dNBR and its relatives —
-  which reports a contrast between two dates rather than a physical quantity, saturates at
-  high severity, and cannot say what the surface is actually made of. For these fires no
-  authored severity product exists at all: they were state-responsibility incidents, so the
-  federal mapping programmes have no coverage.</p>
-  <p class="lede">Planet&rsquo;s <b>Tanager-1</b> is an imaging spectrometer, and it changes
-  what can be asked. Instead of two broad bands it records <b>426 contiguous bands from 376
-  to 2499 nm</b> at 30 m — including the shortwave infrared region where charred material,
-  dry plant litter and mineral soil have distinct absorption features. That makes it possible
-  to <b>unmix each pixel into the materials that compose it</b>, and to measure char as an
-  abundance with a real zero rather than infer severity from a ratio.</p>
+  <p class="lede"><b>No authored burn-severity product exists for the Palisades, Franklin
+  or Kenneth fires.</b> All three burned the Santa Monica Mountains in December 2024 and
+  January 2025, and all three were state-responsibility incidents, so the federal mapping
+  programmes have no coverage: MTBS lags roughly 18 months, and the 2025 USFS BAER mosaic
+  returns <b>zero valid pixels</b> over this ground. Four candidate products were checked
+  and rejected. The debris-flow planners, watershed managers and vegetation-recovery teams
+  working above Malibu and Pacific Palisades have no severity map to work from.</p>
+  <p class="lede"><b>This submission builds one</b>, across the {overlap_km2} km&sup2; where
+  two Tanager-1 scenes overlap. Severity and recovery are normally read from a two-band
+  index — dNBR and its relatives — which reports a contrast between two dates rather than
+  a physical quantity, saturates where the fire burned hardest, and cannot say what the
+  surface is made of. Planet&rsquo;s <b>Tanager-1</b> is an imaging spectrometer: <b>426
+  contiguous bands from 376 to 2499 nm</b> at 30 m, including the shortwave infrared where
+  charred material, dry plant litter and mineral soil have distinct absorption features. That
+  makes it possible to <b>unmix each pixel into the materials that compose it</b>, and to
+  measure char as an abundance with a real zero.</p>
+  <p class="lede">Three findings follow, and each changes a judgement rather than a number.
+  <b>Char measured as a material keeps discriminating inside the high-severity class</b>,
+  where dNBR saturates and stops separating anything. <b>Ranking recovery against a single
+  pooled unburned control overstated Franklin&rsquo;s recovery by {q3_over_frank} GV</b>,
+  because the two large fires burned near-opposite vegetation — a per-vegetation-type
+  control corrects it, and the ranking survives. And <b>{reburn} of this burn area had burned
+  before since 1980</b>, with the fastest-greening ground being the ground furthest along
+  conversion to grassland: <b>fast greening can mean worse condition</b>, which is the
+  opposite of how a greenness index reads it.</p>
   <p class="lede">Tanager imaged this ground twice — sixteen days after Palisades ignited,
-  and again six months into recovery. This submission uses that pair to test what a spaceborne
-  spectrometer adds to wildfire assessment: whether it can measure fire residue as a
-  material, whether that measurement survives an independent check, and whether it supports
-  conclusions about recovery that an index cannot reach. The strongest of those
-  checks is a direct <b>sensor-to-sensor benchmark</b>: NASA flew the airborne AVIRIS-3
-  spectrometer over the same fires the same day, so Tanager can be compared against another
-  imaging spectrometer measuring the same material, rather than against a severity proxy.
-  Every figure is reproducible from a documented open pipeline; the code, the full technical
-  record and the notebook are named in the footer.</p>
+  and again six months into recovery. The strongest check on all of it is a direct
+  <b>sensor-to-sensor benchmark</b>: NASA flew the airborne AVIRIS-3 spectrometer over the
+  same fires the same day, so Tanager&rsquo;s char fraction is compared against another
+  spectrometer&rsquo;s char fraction instead of against a severity proxy. Every figure is
+  reproducible from a documented open pipeline; the code, the full technical record and the
+  notebook are named in the footer.</p>
   <dl class="acq">
     <div><dt>First look</dt><dd>{acq0}</dd></div>
     <div><dt>Second look</dt><dd>{acq1}</dd></div>
