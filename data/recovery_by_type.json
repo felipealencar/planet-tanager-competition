@@ -1,0 +1,644 @@
+{
+  "grid": {
+    "nrow": 713,
+    "ncol": 743,
+    "origin": [
+      332760.0,
+      3784650.0
+    ]
+  },
+  "min_px": 300,
+  "controls": {
+    "Dry-Mesic Chaparral": {
+      "dgv": -0.164,
+      "n_px": 60112
+    },
+    "Coastal Scrub": {
+      "dgv": -0.066,
+      "n_px": 36012
+    },
+    "Coast Live Oak Woodland": {
+      "dgv": -0.262,
+      "n_px": 12540
+    },
+    "Mesic Chaparral": {
+      "dgv": -0.255,
+      "n_px": 10626
+    },
+    "Mixed Evergreen Woodland": {
+      "dgv": -0.252,
+      "n_px": 7417
+    },
+    "Native Grassland": {
+      "dgv": 0.0,
+      "n_px": 5100
+    },
+    "Ruderal Grassland (exotic)": {
+      "dgv": 0.0,
+      "n_px": 7098
+    },
+    "Ruderal Scrub (exotic)": {
+      "dgv": -0.057,
+      "n_px": 3748
+    }
+  },
+  "controls_pooled": {
+    "dgv": -0.162,
+    "n_px": 251906
+  },
+  "strata": [
+    {
+      "n_px": 14949,
+      "km2": 13.45,
+      "char_jan": 0.286,
+      "gv_jan": 0.0,
+      "gv_jul": 0.075,
+      "npv_jul": 0.924,
+      "dgv": 0.059,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.223,
+      "fire": "PALISADES",
+      "evt_code": 7110,
+      "evt_name": "Dry-Mesic Chaparral",
+      "ignition": "2025-01-07"
+    },
+    {
+      "n_px": 3438,
+      "km2": 3.09,
+      "char_jan": 0.105,
+      "gv_jan": 0.0,
+      "gv_jul": 0.039,
+      "npv_jul": 0.961,
+      "dgv": 0.026,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.092,
+      "fire": "PALISADES",
+      "evt_code": 7092,
+      "evt_name": "Coastal Scrub",
+      "ignition": "2025-01-07"
+    },
+    {
+      "n_px": 1840,
+      "km2": 1.66,
+      "char_jan": 0.679,
+      "gv_jan": 0.0,
+      "gv_jul": 0.323,
+      "npv_jul": 0.669,
+      "dgv": 0.187,
+      "interpretable": true,
+      "shade_med": 0.043,
+      "shade_p90": 0.578,
+      "shade_reliable": false,
+      "dgv_vs_control": 0.449,
+      "fire": "PALISADES",
+      "evt_code": 7113,
+      "evt_name": "Coast Live Oak Woodland",
+      "ignition": "2025-01-07"
+    },
+    {
+      "n_px": 1263,
+      "km2": 1.14,
+      "char_jan": 0.572,
+      "gv_jan": 0.0,
+      "gv_jul": 0.198,
+      "npv_jul": 0.797,
+      "dgv": 0.142,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.271,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.397,
+      "fire": "PALISADES",
+      "evt_code": 7097,
+      "evt_name": "Mesic Chaparral",
+      "ignition": "2025-01-07"
+    },
+    {
+      "n_px": 1769,
+      "km2": 1.59,
+      "char_jan": 0.66,
+      "gv_jan": 0.0,
+      "gv_jul": 0.274,
+      "npv_jul": 0.721,
+      "dgv": 0.168,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.579,
+      "shade_reliable": false,
+      "dgv_vs_control": 0.42,
+      "fire": "PALISADES",
+      "evt_code": 7014,
+      "evt_name": "Mixed Evergreen Woodland",
+      "ignition": "2025-01-07"
+    },
+    {
+      "n_px": 3918,
+      "km2": 3.53,
+      "char_jan": 0.18,
+      "gv_jan": 0.0,
+      "gv_jul": 0.242,
+      "npv_jul": 0.752,
+      "dgv": 0.218,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.382,
+      "fire": "Franklin",
+      "evt_code": 7110,
+      "evt_name": "Dry-Mesic Chaparral",
+      "ignition": "2024-12-10"
+    },
+    {
+      "n_px": 7425,
+      "km2": 6.68,
+      "char_jan": 0.081,
+      "gv_jan": 0.0,
+      "gv_jul": 0.155,
+      "npv_jul": 0.845,
+      "dgv": 0.144,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.21,
+      "fire": "Franklin",
+      "evt_code": 7092,
+      "evt_name": "Coastal Scrub",
+      "ignition": "2024-12-10"
+    },
+    {
+      "n_px": 1812,
+      "km2": 1.63,
+      "char_jan": 0.687,
+      "gv_jan": 0.079,
+      "gv_jul": 0.434,
+      "npv_jul": 0.554,
+      "dgv": 0.262,
+      "interpretable": true,
+      "shade_med": 0.144,
+      "shade_p90": 0.651,
+      "shade_reliable": false,
+      "dgv_vs_control": 0.524,
+      "fire": "Franklin",
+      "evt_code": 7113,
+      "evt_name": "Coast Live Oak Woodland",
+      "ignition": "2024-12-10"
+    },
+    {
+      "n_px": 1256,
+      "km2": 1.13,
+      "char_jan": 0.628,
+      "gv_jan": 0.015,
+      "gv_jul": 0.387,
+      "npv_jul": 0.603,
+      "dgv": 0.257,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.652,
+      "shade_reliable": false,
+      "dgv_vs_control": 0.509,
+      "fire": "Franklin",
+      "evt_code": 7014,
+      "evt_name": "Mixed Evergreen Woodland",
+      "ignition": "2024-12-10"
+    },
+    {
+      "n_px": 1034,
+      "km2": 0.93,
+      "char_jan": 0.471,
+      "gv_jan": 0.0,
+      "gv_jul": 0.0,
+      "npv_jul": 1.005,
+      "dgv": 0.0,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.209,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.066,
+      "fire": "KENNETH",
+      "evt_code": 7092,
+      "evt_name": "Coastal Scrub",
+      "ignition": "2025-01-09"
+    },
+    {
+      "n_px": 732,
+      "km2": 0.66,
+      "char_jan": 0.482,
+      "gv_jan": 0.0,
+      "gv_jul": 0.0,
+      "npv_jul": 1.006,
+      "dgv": 0.0,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.0,
+      "fire": "KENNETH",
+      "evt_code": 7129,
+      "evt_name": "Native Grassland",
+      "ignition": "2025-01-09"
+    },
+    {
+      "n_px": 1045,
+      "km2": 0.94,
+      "char_jan": 0.484,
+      "gv_jan": 0.0,
+      "gv_jul": 0.0,
+      "npv_jul": 1.006,
+      "dgv": 0.0,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.0,
+      "fire": "KENNETH",
+      "evt_code": 9301,
+      "evt_name": "Ruderal Grassland (exotic)",
+      "ignition": "2025-01-09"
+    }
+  ],
+  "burned_composition": {
+    "PALISADES": {
+      "Dry-Mesic Chaparral": 13.45,
+      "Coastal Scrub": 3.09
+    },
+    "Franklin": {
+      "Dry-Mesic Chaparral": 3.53,
+      "Coastal Scrub": 6.68
+    },
+    "KENNETH": {
+      "Dry-Mesic Chaparral": 0.1,
+      "Coastal Scrub": 0.93
+    }
+  },
+  "type_conversion": [
+    {
+      "prior_fires": 0,
+      "n_px": 101157,
+      "chaparral": 0.0969,
+      "coastal_scrub": 0.0412,
+      "exotic": 0.0097
+    },
+    {
+      "prior_fires": 1,
+      "n_px": 59678,
+      "chaparral": 0.3523,
+      "coastal_scrub": 0.0888,
+      "exotic": 0.0234
+    },
+    {
+      "prior_fires": 2,
+      "n_px": 49078,
+      "chaparral": 0.4045,
+      "coastal_scrub": 0.2194,
+      "exotic": 0.0845
+    },
+    {
+      "prior_fires": 3,
+      "n_px": 27497,
+      "chaparral": 0.2565,
+      "coastal_scrub": 0.2852,
+      "exotic": 0.1141
+    },
+    {
+      "prior_fires": 4,
+      "n_px": 13719,
+      "chaparral": 0.1699,
+      "coastal_scrub": 0.546,
+      "exotic": 0.0795
+    },
+    {
+      "prior_fires": 5,
+      "n_px": 749,
+      "chaparral": 0.0628,
+      "coastal_scrub": 0.5794,
+      "exotic": 0.1095
+    }
+  ],
+  "recovery_vs_fire_frequency": [
+    {
+      "n_px": 315,
+      "km2": 0.28,
+      "char_jan": 0.485,
+      "gv_jan": 0.0,
+      "gv_jul": 0.179,
+      "npv_jul": 0.808,
+      "dgv": 0.042,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.332,
+      "shade_reliable": false,
+      "dgv_vs_control": 0.206,
+      "evt_code": 7110,
+      "evt_name": "Dry-Mesic Chaparral",
+      "prior_fires": 0
+    },
+    {
+      "n_px": 12514,
+      "km2": 11.26,
+      "char_jan": 0.3,
+      "gv_jan": 0.0,
+      "gv_jul": 0.073,
+      "npv_jul": 0.926,
+      "dgv": 0.059,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.019,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.223,
+      "evt_code": 7110,
+      "evt_name": "Dry-Mesic Chaparral",
+      "prior_fires": 1
+    },
+    {
+      "n_px": 1021,
+      "km2": 0.92,
+      "char_jan": 0.235,
+      "gv_jan": 0.0,
+      "gv_jul": 0.101,
+      "npv_jul": 0.895,
+      "dgv": 0.079,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.243,
+      "evt_code": 7110,
+      "evt_name": "Dry-Mesic Chaparral",
+      "prior_fires": 2
+    },
+    {
+      "n_px": 2200,
+      "km2": 1.98,
+      "char_jan": 0.169,
+      "gv_jan": 0.0,
+      "gv_jul": 0.128,
+      "npv_jul": 0.872,
+      "dgv": 0.097,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.261,
+      "evt_code": 7110,
+      "evt_name": "Dry-Mesic Chaparral",
+      "prior_fires": 3
+    },
+    {
+      "n_px": 2627,
+      "km2": 2.36,
+      "char_jan": 0.2,
+      "gv_jan": 0.0,
+      "gv_jul": 0.227,
+      "npv_jul": 0.769,
+      "dgv": 0.22,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.384,
+      "evt_code": 7110,
+      "evt_name": "Dry-Mesic Chaparral",
+      "prior_fires": 4
+    },
+    {
+      "n_px": 2098,
+      "km2": 1.89,
+      "char_jan": 0.112,
+      "gv_jan": 0.0,
+      "gv_jul": 0.018,
+      "npv_jul": 0.981,
+      "dgv": 0.004,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.07,
+      "evt_code": 7092,
+      "evt_name": "Coastal Scrub",
+      "prior_fires": 1
+    },
+    {
+      "n_px": 1079,
+      "km2": 0.97,
+      "char_jan": 0.166,
+      "gv_jan": 0.0,
+      "gv_jul": 0.029,
+      "npv_jul": 0.972,
+      "dgv": 0.014,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.011,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.08,
+      "evt_code": 7092,
+      "evt_name": "Coastal Scrub",
+      "prior_fires": 2
+    },
+    {
+      "n_px": 2200,
+      "km2": 1.98,
+      "char_jan": 0.249,
+      "gv_jan": 0.0,
+      "gv_jul": 0.0,
+      "npv_jul": 1.002,
+      "dgv": 0.0,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.078,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.066,
+      "evt_code": 7092,
+      "evt_name": "Coastal Scrub",
+      "prior_fires": 3
+    },
+    {
+      "n_px": 4910,
+      "km2": 4.42,
+      "char_jan": 0.137,
+      "gv_jan": 0.0,
+      "gv_jul": 0.16,
+      "npv_jul": 0.839,
+      "dgv": 0.152,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.218,
+      "evt_code": 7092,
+      "evt_name": "Coastal Scrub",
+      "prior_fires": 4
+    },
+    {
+      "n_px": 1476,
+      "km2": 1.33,
+      "char_jan": 0.0,
+      "gv_jan": 0.0,
+      "gv_jul": 0.135,
+      "npv_jul": 0.866,
+      "dgv": 0.13,
+      "interpretable": true,
+      "shade_med": 0.0,
+      "shade_p90": 0.0,
+      "shade_reliable": true,
+      "dgv_vs_control": 0.196,
+      "evt_code": 7092,
+      "evt_name": "Coastal Scrub",
+      "prior_fires": 5
+    }
+  ],
+  "severity_control": {
+    "veg_effect": [
+      {
+        "char_lo": 0.0,
+        "char_hi": 0.05,
+        "chaparral_n": 5844,
+        "chaparral": 0.137,
+        "coastal_scrub_n": 5212,
+        "coastal_scrub": 0.052,
+        "difference": 0.085
+      },
+      {
+        "char_lo": 0.05,
+        "char_hi": 0.15,
+        "chaparral_n": 1551,
+        "chaparral": 0.188,
+        "coastal_scrub_n": 919,
+        "coastal_scrub": 0.151,
+        "difference": 0.037
+      },
+      {
+        "char_lo": 0.15,
+        "char_hi": 0.3,
+        "chaparral_n": 2672,
+        "chaparral": 0.237,
+        "coastal_scrub_n": 1468,
+        "coastal_scrub": 0.176,
+        "difference": 0.061
+      },
+      {
+        "char_lo": 0.3,
+        "char_hi": 0.5,
+        "chaparral_n": 3250,
+        "chaparral": 0.273,
+        "coastal_scrub_n": 1691,
+        "coastal_scrub": 0.198,
+        "difference": 0.075
+      },
+      {
+        "char_lo": 0.5,
+        "char_hi": 1.01,
+        "chaparral_n": 4983,
+        "chaparral": 0.32,
+        "coastal_scrub_n": 2342,
+        "coastal_scrub": 0.231,
+        "difference": 0.089
+      }
+    ],
+    "age_effect": [
+      {
+        "char_lo": 0.0,
+        "char_hi": 0.05,
+        "PALISADES_n": 4441,
+        "PALISADES": 0.137,
+        "Franklin_n": 1415,
+        "Franklin": 0.283,
+        "difference": 0.146
+      },
+      {
+        "char_lo": 0.05,
+        "char_hi": 0.15,
+        "PALISADES_n": 1152,
+        "PALISADES": 0.15,
+        "Franklin_n": 404,
+        "Franklin": 0.335,
+        "difference": 0.185
+      },
+      {
+        "char_lo": 0.15,
+        "char_hi": 0.3,
+        "PALISADES_n": 2036,
+        "PALISADES": 0.195,
+        "Franklin_n": 642,
+        "Franklin": 0.376,
+        "difference": 0.181
+      },
+      {
+        "char_lo": 0.3,
+        "char_hi": 0.5,
+        "PALISADES_n": 2588,
+        "PALISADES": 0.242,
+        "Franklin_n": 671,
+        "Franklin": 0.402,
+        "difference": 0.16
+      },
+      {
+        "char_lo": 0.5,
+        "char_hi": 1.01,
+        "PALISADES_n": 4235,
+        "PALISADES": 0.305,
+        "Franklin_n": 718,
+        "Franklin": 0.446,
+        "difference": 0.141
+      }
+    ],
+    "july_gv_vs_severity": [
+      {
+        "char_lo": 0.0,
+        "char_hi": 0.05,
+        "n_px": 5844,
+        "gv_jan": 0.0,
+        "gv_jul": 0.0,
+        "gv_jul_zero_frac": 0.518
+      },
+      {
+        "char_lo": 0.05,
+        "char_hi": 0.15,
+        "n_px": 1551,
+        "gv_jan": 0.0,
+        "gv_jul": 0.072,
+        "gv_jul_zero_frac": 0.34
+      },
+      {
+        "char_lo": 0.15,
+        "char_hi": 0.3,
+        "n_px": 2672,
+        "gv_jan": 0.0,
+        "gv_jul": 0.117,
+        "gv_jul_zero_frac": 0.26
+      },
+      {
+        "char_lo": 0.3,
+        "char_hi": 0.5,
+        "n_px": 3250,
+        "gv_jan": 0.0,
+        "gv_jul": 0.147,
+        "gv_jul_zero_frac": 0.212
+      },
+      {
+        "char_lo": 0.5,
+        "char_hi": 1.01,
+        "n_px": 4983,
+        "gv_jan": 0.0,
+        "gv_jul": 0.196,
+        "gv_jul_zero_frac": 0.128
+      }
+    ],
+    "controls": {
+      "Dry-Mesic Chaparral": -0.137,
+      "Coastal Scrub": -0.037
+    }
+  },
+  "maps": {
+    "file": "data/ui_layers.npz",
+    "stride": 2,
+    "masked_km2": 28.5
+  }
+}

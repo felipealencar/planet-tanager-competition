@@ -1,0 +1,13 @@
+.venv/
+data/stac/
+data/quicklook/*.tif
+data/hdf5/
+__pycache__/
+*.pyc
+data/hdf5/
+data/*.npz
+data/*.npy
+data/*.tif
+data/baer/
+.earthdata_token
+.DS_Store
